@@ -1,0 +1,532 @@
+{
+  "source_image": "paper_p1.png",
+  "page_size": {
+    "height": 2200,
+    "width": 1700
+  },
+  "n_regions": 19,
+  "n_words": 476,
+  "regions": [
+    {
+      "region_id": 0,
+      "region_type": "other",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 1700,
+        "h": 2200
+      },
+      "word_count": 0,
+      "ocr_text": "",
+      "entities": [],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.0,
+        "pos": 0.0,
+        "compound": 0.0
+      }
+    },
+    {
+      "region_id": 1,
+      "region_type": "paragraph",
+      "bbox": {
+        "x": 137,
+        "y": 1180,
+        "w": 1428,
+        "h": 519
+      },
+      "word_count": 128,
+      "ocr_text": "e Only two time periods were analysed e Spatial dependencies were not modelled US County Homeownership Rate (2019 ACS) e ACS estimates contain sampling variability Homeownership Rate ee se This study developed a machine learning framework to predict U.S. county-level homeownership rates using ACS data. The results demonstrate that county-level homeownership ° can be predicted with high accuracy using socioeconomic, de- mographic, and housing characteristics. Among the evaluated models, Random Forest achieved the strongest performance Based on the results of this study, it is clear that county-level (R? = 0.880), outperforming both neural network and XG- homeownership rates in the United States can be effectively Boost models and highlighting the effectiveness of ensemble predicted using a combination of current and historical socioe- ee methods for structured socioeconomic data.",
+      "entities": [
+        {
+          "text": "Only two",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "US County Homeownership Rate",
+          "label": "ORG"
+        },
+        {
+          "text": "2019",
+          "label": "DATE"
+        },
+        {
+          "text": "ACS",
+          "label": "ORG"
+        },
+        {
+          "text": "Homeownership Rate",
+          "label": "ORG"
+        },
+        {
+          "text": "U.S.",
+          "label": "GPE"
+        },
+        {
+          "text": "ACS",
+          "label": "ORG"
+        },
+        {
+          "text": "Random Forest",
+          "label": "ORG"
+        },
+        {
+          "text": "0.880",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "XG-",
+          "label": "NORP"
+        },
+        {
+          "text": "the United States",
+          "label": "GPE"
+        },
+        {
+          "text": "Boost",
+          "label": "PERSON"
+        }
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.893,
+        "pos": 0.107,
+        "compound": 0.917
+      }
+    },
+    {
+      "region_id": 2,
+      "region_type": "paragraph",
+      "bbox": {
+        "x": 137,
+        "y": 141,
+        "w": 1447,
+        "h": 442
+      },
+      "word_count": 21,
+      "ocr_text": "rte prev XGBoost Feature Importance (Enhanced with Historical Features) Change in County Homeownership Rate (2019-2022) peptone ony Change in Homeownership ia",
+      "entities": [
+        {
+          "text": "XGBoost Feature Importance (Enhanced with Historical Features",
+          "label": "ORG"
+        },
+        {
+          "text": "County Homeownership Rate",
+          "label": "ORG"
+        },
+        {
+          "text": "2019-2022",
+          "label": "DATE"
+        }
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.889,
+        "pos": 0.111,
+        "compound": 0.361
+      }
+    },
+    {
+      "region_id": 3,
+      "region_type": "paragraph",
+      "bbox": {
+        "x": 137,
+        "y": 855,
+        "w": 1427,
+        "h": 319
+      },
+      "word_count": 82,
+      "ocr_text": "US County Homeownership Rate (2022 ACS) tabular socioeconomic data with nonlinear interactions, while | HUFal networks can still provide strong predictions but may be constrained by dataset size and feature dimensionality. In general, the results demonstrate that integrating historical “ features into predictive models not only improves accuracy but fo also provides valuable insights into the drivers of county-level 02 homeownership, offering practical implications for policymak- 5 ers and regional planners interested in housing stability and economic development. However, several limitations exist:",
+      "entities": [
+        {
+          "text": "US County Homeownership Rate",
+          "label": "ORG"
+        },
+        {
+          "text": "2022",
+          "label": "DATE"
+        },
+        {
+          "text": "HUFal",
+          "label": "ORG"
+        },
+        {
+          "text": "02",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "5",
+          "label": "CARDINAL"
+        }
+      ],
+      "sentiment": {
+        "neg": 0.052,
+        "neu": 0.837,
+        "pos": 0.111,
+        "compound": 0.739
+      }
+    },
+    {
+      "region_id": 4,
+      "region_type": "paragraph",
+      "bbox": {
+        "x": 137,
+        "y": 664,
+        "w": 1428,
+        "h": 192
+      },
+      "word_count": 66,
+      "ocr_text": "conomic conditions in shaping county-level homeownership and decreases highlights the heterogeneous nature of housing patterns. In terms of model performance, Random Forest market dynamics, suggesting (R? = 0.880), demographic trends, and housing supply constraints likely followed closely by Gradient Boosting (R? = 0.8673) and contributed to differing outcomes across counties. Neural Networks (R? = 0.770). These findings suggest that ensemble tree-based models are particularly well-suited for",
+      "entities": [
+        {
+          "text": "Random Forest",
+          "label": "ORG"
+        },
+        {
+          "text": "0.880",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "Gradient Boosting",
+          "label": "PERSON"
+        },
+        {
+          "text": "0.8673",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "Neural Networks",
+          "label": "ORG"
+        },
+        {
+          "text": "0.770",
+          "label": "CARDINAL"
+        }
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.924,
+        "pos": 0.076,
+        "compound": 0.617
+      }
+    },
+    {
+      "region_id": 5,
+      "region_type": "paragraph",
+      "bbox": {
+        "x": 137,
+        "y": 1702,
+        "w": 1428,
+        "h": 163
+      },
+      "word_count": 71,
+      "ocr_text": "conomic, demographic, and housing characteristics. All three Feature importance analysis identified prior-year homeown- machine learning models evaluated—Neural Networks, Ran- ership rates as the most influential predictor of homeownership dom Forest, and Gradient Boosting (XGBoost)—demonstrated outcomes. These findings provide insight into the structural strong predictive performance, with R? values ranging from drivers of homeownership and offer actionable information for 0.770 to 0.880, indicating that these features capture sub- policymakers and housing planners.",
+      "entities": [
+        {
+          "text": "three",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "prior-year",
+          "label": "DATE"
+        },
+        {
+          "text": "Neural Networks",
+          "label": "ORG"
+        },
+        {
+          "text": "dom Forest",
+          "label": "ORG"
+        },
+        {
+          "text": "Gradient Boosting",
+          "label": "PERSON"
+        },
+        {
+          "text": "0.770",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "0.880",
+          "label": "CARDINAL"
+        }
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.824,
+        "pos": 0.176,
+        "compound": 0.92
+      }
+    },
+    {
+      "region_id": 6,
+      "region_type": "header",
+      "bbox": {
+        "x": 138,
+        "y": 1906,
+        "w": 1427,
+        "h": 92
+      },
+      "word_count": 44,
+      "ocr_text": "Among the predictor variables, prior-year homeownership spatial econometric modelling to account for geographic de- rates, the interaction between poverty levels and housing pendencies and by leveraging longer temporal datasets to prices, population density, and educational attainment emerged better capture dynamic housing trends over time.",
+      "entities": [
+        {
+          "text": "prior-year",
+          "label": "DATE"
+        }
+      ],
+      "sentiment": {
+        "neg": 0.066,
+        "neu": 0.823,
+        "pos": 0.11,
+        "compound": 0.296
+      }
+    },
+    {
+      "region_id": 7,
+      "region_type": "figure",
+      "bbox": {
+        "x": 245,
+        "y": 1291,
+        "w": 379,
+        "h": 214
+      },
+      "word_count": 6,
+      "ocr_text": "x . A ws, ~ °",
+      "entities": [],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      }
+    },
+    {
+      "region_id": 8,
+      "region_type": "figure",
+      "bbox": {
+        "x": 973,
+        "y": 199,
+        "w": 365,
+        "h": 214
+      },
+      "word_count": 1,
+      "ocr_text": "Pec",
+      "entities": [],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      }
+    },
+    {
+      "region_id": 9,
+      "region_type": "figure",
+      "bbox": {
+        "x": 257,
+        "y": 913,
+        "w": 364,
+        "h": 213
+      },
+      "word_count": 3,
+      "ocr_text": "” = ~",
+      "entities": [],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.0,
+        "pos": 0.0,
+        "compound": 0.0
+      }
+    },
+    {
+      "region_id": 10,
+      "region_type": "other",
+      "bbox": {
+        "x": 465,
+        "y": 713,
+        "w": 928,
+        "h": 52
+      },
+      "word_count": 9,
+      "ocr_text": "that local economic conditions, achieved the highest predictive accuracy",
+      "entities": [],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      }
+    },
+    {
+      "region_id": 11,
+      "region_type": "text_line",
+      "bbox": {
+        "x": 868,
+        "y": 597,
+        "w": 696,
+        "h": 59
+      },
+      "word_count": 17,
+      "ocr_text": "as the most influential factors. These results highlight the importance of both historical persistence and broader socioe-",
+      "entities": [],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.634,
+        "pos": 0.366,
+        "compound": 0.796
+      }
+    },
+    {
+      "region_id": 12,
+      "region_type": "text_line",
+      "bbox": {
+        "x": 138,
+        "y": 1872,
+        "w": 695,
+        "h": 26
+      },
+      "word_count": 7,
+      "ocr_text": "stantial variance in homeownership outcomes across counties.",
+      "entities": [],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      }
+    },
+    {
+      "region_id": 13,
+      "region_type": "text_line",
+      "bbox": {
+        "x": 897,
+        "y": 1872,
+        "w": 667,
+        "h": 26
+      },
+      "word_count": 8,
+      "ocr_text": "Future research could extend this work by incorporating",
+      "entities": [],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.805,
+        "pos": 0.195,
+        "compound": 0.178
+      }
+    },
+    {
+      "region_id": 14,
+      "region_type": "other",
+      "bbox": {
+        "x": 996,
+        "y": 1119,
+        "w": 402,
+        "h": 20
+      },
+      "word_count": 0,
+      "ocr_text": "",
+      "entities": [],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.0,
+        "pos": 0.0,
+        "compound": 0.0
+      }
+    },
+    {
+      "region_id": 15,
+      "region_type": "text_line",
+      "bbox": {
+        "x": 287,
+        "y": 608,
+        "w": 398,
+        "h": 20
+      },
+      "word_count": 6,
+      "ocr_text": "Fig. 10. Random Forest feature importance",
+      "entities": [
+        {
+          "text": "Fig",
+          "label": "PERSON"
+        },
+        {
+          "text": "10",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "Random Forest",
+          "label": "ORG"
+        }
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.667,
+        "pos": 0.333,
+        "compound": 0.361
+      }
+    },
+    {
+      "region_id": 16,
+      "region_type": "text_line",
+      "bbox": {
+        "x": 1044,
+        "y": 501,
+        "w": 346,
+        "h": 20
+      },
+      "word_count": 5,
+      "ocr_text": "Fig. 11. Evolution of homeownership",
+      "entities": [
+        {
+          "text": "Fig",
+          "label": "PERSON"
+        }
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      }
+    },
+    {
+      "region_id": 17,
+      "region_type": "other",
+      "bbox": {
+        "x": 872,
+        "y": 1959,
+        "w": 301,
+        "h": 19
+      },
+      "word_count": 0,
+      "ocr_text": "",
+      "entities": [],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.0,
+        "pos": 0.0,
+        "compound": 0.0
+      }
+    },
+    {
+      "region_id": 18,
+      "region_type": "text_line",
+      "bbox": {
+        "x": 1101,
+        "y": 1333,
+        "w": 231,
+        "h": 20
+      },
+      "word_count": 2,
+      "ocr_text": "VIII. CONCLUSION",
+      "entities": [],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      }
+    }
+  ]
+}
