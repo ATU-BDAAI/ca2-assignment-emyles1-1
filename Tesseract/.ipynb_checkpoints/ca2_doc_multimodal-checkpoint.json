@@ -5,7 +5,7 @@
     "width": 1264
   },
   "n_regions": 3,
-  "n_words": 8,
+  "n_words": 17,
   "regions": [
     {
       "region_id": 0,
@@ -16,9 +16,22 @@
         "w": 1264,
         "h": 411
       },
-      "word_count": 8,
-      "ocr_text": "i AS ~ - _ = “oe Sr",
-      "entities": [],
+      "word_count": 17,
+      "ocr_text": "Neer EB” MLE re eee ¥, i AS ~ - _ = ms i. ch “oe Sr",
+      "entities": [
+        {
+          "text": "MLE",
+          "label": "ORG"
+        },
+        {
+          "text": "¥",
+          "label": "FAC"
+        },
+        {
+          "text": "i. ch “oe Sr",
+          "label": "PERSON"
+        }
+      ],
       "sentiment": {
         "neg": 0.0,
         "neu": 1.0,
